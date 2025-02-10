@@ -1,27 +1,32 @@
 body {
-    background-color: rgb(229, 255, 229);
+    background-color: #f9f7fe;
+    font-family: Helvetica, Arial, sans-serif;
 }
-  .container {
+
+a {
+    color: #885df1;
+}
+
+.container {
     margin: 120px auto;
     max-width: 600px;
-    
-    
+}
 
-  }
+header {
+    margin-bottom: 30px;
+}
 
 h1 {
-text-align: center;
-font-weight: 800px ;
-font-size: 36px;
-line-height: 1.5;
-font-family: 'Times New Roman', Times, serif;
-color: rgb(87, 86, 86);
-
-
+    text-align: center;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 1.5;
+    color: #272044;
 }
+
 form {
     padding: 30px;
-    background-color: rgba(232, 235, 223, 0.986);
+    background-color: white;
     box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
     border-radius: 10px;
     display: flex;
@@ -35,12 +40,12 @@ form {
     font-size: 16px;
     border-radius: 50px;
     line-height: 20px;
-    color:rgb(87, 86, 86 );
+    color: #272044;
 }
 
 .submit-button {
     margin-left: 10px;
-    background: rgb(87, 86, 86;
+    background: #885df1;
     color: white;
     border: none;
     width: 150px;
@@ -54,7 +59,7 @@ form {
     background-color: #fff;
     padding: 20px;
     line-height: 2;
-    border-left: 3px solid rgb(87, 86, 86;
+    border-left: 3px solid #885df1;
     box-shadow: 0px 4px 30px 0px rgba(39, 33, 66, 0.03);
 }
 
