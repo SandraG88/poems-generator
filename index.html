@@ -6,42 +6,47 @@
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/style.css" />
-    <title>AI poem generator</title>
+    <title>AI French Poem Generator</title>
   </head>
   <body>
     <div class="container">
       <header>
-        <h1>Welcome to AI poem generator</h1>
+        <h1>AI French Poem Generator</h1>
       </header>
-      <main>
-        <form id="poem-generator-form">
-          <input
-            type="text"
-            placeholder="Enter the topic of a poem"
-            autofocus
-            required
-            autocomplete="off"
-            class="instructions"
-            id="user-instructions"
-          />
-          <input type="submit" class="submit-button" />
-        </form>
-        <div class="hint">i.e: Flower, Paris or Cheese</div>
 
+      <main>
+        <div class="form-container">
+          <form id="poem-generator-form">
+            <input
+              type="text"
+              placeholder="Enter the topic of a French poem"
+              autofocus
+              required
+              autocomplete="off"
+              class="instructions"
+              id="user-instructions"
+            />
+            <input type="submit" class="submit-button" />
+          </form>
+          <div class="hint">i.e: Flower, Paris or Cheese</div>
+        </div>
         <div class="poem hidden" id="poem"></div>
       </main>
 
       <footer>
         This AI project was coded by
-        <a href="https://github.com/SandraG88">Sandra Galic</a>
+        <a href="https://github.com/SandraG88" target="_blank">Sandra Galic</a>
         and is
-        <a href="https://github.com/SandraG88/poems-generator"
-          >open sourced on GitHub</a
+        <a href="https://github.com/SandraG88/poems-generator" target="_blank">
+          open-sourced on GitHub</a
         >
         and is
-        <a href="https://poem-generator-sg.netlify.app/">hosted on Netlify</a>
+        <a href="https://poem-generator-sg.netlify.app/" target="_blank"
+          >hosted on Netlify</a
+        >.
       </footer>
     </div>
+
     <script src="src/index.js"></script>
   </body>
 </html>
